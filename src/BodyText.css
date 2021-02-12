@@ -1,0 +1,12 @@
+.bodyText {
+    padding: 100px;
+    padding-top: 150px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bodyText__left {
+    max-width: 600px;
+}
