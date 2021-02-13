@@ -1,6 +1,5 @@
 import React from 'react'
 import "./WidgetsRow.css"
-import Trippy from "./Trippy";
 import Widget from "./Widget";
 import BayrImage from "./Genres/Bayr.png";
 import piImage from "./Genres/3pi.png";
@@ -13,17 +12,17 @@ function WidgetsRow() {
             <Widget
                 image={BayrImage}
                 title="Bayr"
-                link={Trippy}
+                link="/"
             />
             <Widget
                 image={piImage}
                 title="3pi"
-                link={Trippy}
+                link="/"
             />
             <Widget
                 image={Unrealisam}
                 title="Unrealisam"
-                link={Trippy}
+                link="/"
             />
         </div>
     )

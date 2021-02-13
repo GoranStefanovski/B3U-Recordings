@@ -11,18 +11,24 @@
     justify-content: center;
 }
 
+Link {
+    direction: none;
+    color: white;
+}
+
 .header>img {
     object-fit: contain;
     width: 150px;
     height: 30px;
 }
 
-.header>h4 {
+#btn {
     padding: 10px;
     border-radius: 15px;
+    color: white;
 }
 
-.header>h4:hover {
+#btn:hover {
     cursor: pointer;
     color: black;
     background-color: white;

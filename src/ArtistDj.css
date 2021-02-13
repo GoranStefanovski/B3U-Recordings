@@ -1,0 +1,46 @@
+.artistDj {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    position: relative;
+}
+
+.image {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    /* top: 50%; */
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.artistDj:hover .image {
+    opacity: 0.3;
+}
+
+.artistDj:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    border-radius: 10%;
+    background-color: #B0BF1A;
+    color: white;
+    /* font-size: 16px; */
+    padding: 10px 26px;
+}

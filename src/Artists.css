@@ -1,0 +1,8 @@
+.artists {
+    height: 100vh;
+    background-color: #272525;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 200px;
+}

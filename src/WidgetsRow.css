@@ -1,6 +1,7 @@
 .widgetsRow {
     padding: 80px;
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     justify-content: space-around;
 }
@@ -19,7 +20,7 @@ body {
     background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
     color: #eee;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

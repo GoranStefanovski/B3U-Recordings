@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer__center {
+    margin-left: 80px;
+    left: 60%;
+    display: flex;
+    flex: 0.3;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 200px; */
+}
+
+#Insta:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #405DE6;
+}
+
+#YouTube:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: red;
+}
+
+#SoundCloud:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
